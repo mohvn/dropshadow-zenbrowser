@@ -1,4 +1,5 @@
 @-moz-document url-prefix("chrome:") {
+        
   #navigator-toolbox toolbar#TabsToolbar {
     padding: 5px 5px !important;
   }
@@ -6,4 +7,10 @@
   & #tabbrowser-tabbox #tabbrowser-tabpanels .browserSidebarContainer {
     box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.5) !important;
   }
+ 
+  #urlbar {
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.5) !important;
+    border: none !important;
+  }
+  
 }
